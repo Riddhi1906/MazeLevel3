@@ -23,7 +23,7 @@ function preload(){
     zom = loadImage("bt1.png");
 }
 function setup(){
-    var canvas = createCanvas(800,700);
+    var canvas = createCanvas(windowWidth, windowHeight);
     
     boy = createSprite(30,30,20,20);
     boy.addImage(boy1Img);
